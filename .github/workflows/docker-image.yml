@@ -41,5 +41,6 @@ jobs:
         with:
           context: .
           file: .devcontainer/Dockerfile
+          platforms: linux/arm64/v8
           push: true
           tags: djqjq163com/test:arm64
